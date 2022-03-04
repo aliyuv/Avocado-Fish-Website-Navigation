@@ -1,5 +1,8 @@
 {
-  "devDependencies": {
-    "parcel": "^2.3.2"
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
+  "dependencies": {
+    "parcel": "1.9"
   }
 }
